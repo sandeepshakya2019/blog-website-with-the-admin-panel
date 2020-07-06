@@ -1,0 +1,45 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.container-fluid{
+  padding:0;
+  margin:0;
+}
+
+.basictext{
+  font-size: 20px;
+}
+@media only screen and (min-width: 1043px) {
+  #headerbar{
+  margin-left: 540px;
+}
+  .nav-item{
+    padding-right: 20px;
+  }
+}
+
+.page-footer{
+  border-top: 1px solid #f2f2f2;
+    background-color: #303440;
+    color: #444;
+    bottom: 0;
+
+    
+}
+footer {
+    clear: both;
+    position: relative;
+    margin-top: 160px;
+    bottom: 0;
+    top: 100%;
+}
+.text{
+  background-color: #ea9f2e;
+  padding:5px;
+  border-radius: 5px;
+}
+.colordefined{
+  color: orange;
+}
